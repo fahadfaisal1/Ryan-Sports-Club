@@ -1,0 +1,43 @@
+/* Section */
+section{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    float: left;
+    position: relative;
+    align-items: center;
+}
+
+/* Heading in Section */ 
+section>h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration:underline rgb(226, 215, 15) 5px;
+}
+
+/* images in section */
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+.cards{
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+    background-color: aqua;
+    box-shadow:5px 5px 5px grey;
+    transition:  ease-in-out 0.5s;
+
+
+}
+.cards:hover{
+    width: 220px;
+    height: 220px;
+}
+
